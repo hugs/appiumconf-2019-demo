@@ -2,12 +2,6 @@ from time import sleep
 from appium import webdriver
 from appium.webdriver.common.touch_action import TouchAction
 
-#caps = {'automationName': 'arduino', 'app': 'Angry Birds',
-#        'newCommandTimeout': 60 * 60}
-#driver = webdriver.Remote('http://localhost:4847/wd/hub', caps)
-
-#actions = TouchAction(driver)
-
 global driver
 global actions
 
@@ -117,16 +111,3 @@ if __name__ == "__main__":
     sleep(2)
     print("Exiting...")
     driver.quit()
-
-
-# driver.quit()
-
-
-# Dir: /Users/hugs/Projects/appium/sample-code/python
-#URL = 'http://localhost:7774/wd/hub'
-#caps = {}
-#caps['automationName'] = 'arduino'
-#caps['platformName'] = iOS
-#caps['app'] = ' '
-#e = driver.find_element_by_id("origin")
-#TouchAction(driver).tap(e, 104, 255, 1).perform()
