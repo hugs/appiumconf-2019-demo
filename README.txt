@@ -135,7 +135,7 @@ Optional:
   
 14) Set-up and activate Python environment:
   - Download code (In a terminal window on your computer):
-      git clone https://github.com/hugs/AppiumConf-2019-Demo
+      git clone https://github.com/hugs/appiumconf-2019-demo
       
   cd AppiumConf-2019-Demo/demo
   python3 -m venv env
